@@ -49,6 +49,9 @@ This file contains a number of front-end interview questions that can be used wh
 #### HTML Questions:
 
 * What does a `doctype` do?
+-  A doctype is Document Type Declaration, and not a HTML tag. It must be included on the top to tell the browsers about the version of the HTML used and to tell browser to load the Standard / Quirks mode.
+- The quirks mode in browsers is a technique which tries to maintain the backward compatibility.
+- Read more @ here - https://developer.mozilla.org/en-US/docs/Quirks_Mode_and_Standards_Mode
 * What's the difference between full standards mode, almost standards mode and quirks mode?
 * What's the difference between HTML and XHTML?
 * Are there any problems with serving pages as `application/xhtml+xml`?
