@@ -52,14 +52,14 @@ This file contains a number of front-end interview questions that can be used wh
 *A doctype is Document Type Declaration, and not a HTML tag. It must be included on the top to tell the browsers about the version of the HTML used and to tell browser to load the Standard / Quirks mode.
  The quirks mode in browsers is a technique which tries to maintain the backward compatibility.*
 * What's the difference between full standards mode, almost standards mode and quirks mode? -  *Read more @ here - https://developer.mozilla.org/en-US/docs/Quirks_Mode_and_Standards_Mode*
-* What's the difference between HTML and XHTML?
-* Are there any problems with serving pages as `application/xhtml+xml`?
+* What's the difference between HTML and XHTML? - *XHTML is the combination of HTML and XML;it is stricter version of HTML whereas every node needs to be closed properly *
+* Are there any problems with serving pages as `application/xhtml+xml`? - *IE will not show the file, and it will rather download it*
 * How do you serve a page with content in multiple languages?
 * What kind of things must you be wary of when design or developing for multilingual sites?
-* What are `data-` attributes good for?
+* What are `data-` attributes good for? - *They are used to put any data in the HTML elements. This data can be picked up in JS and CSS very easily. Read more @ https://developer.mozilla.org/en/docs/Web/Guide/HTML/Using_data_attributes*
 * Consider HTML5 as an open web platform. What are the building blocks of HTML5?
 * Describe the difference between a `cookie`, `sessionStorage` and `localStorage`.
-* Describe the difference between `<script>`, `<script async>` and `<script defer>`.
+* Describe the difference between `<script>`, `<script async>` and `<script defer>`. - *http://peter.sh/experiments/asynchronous-and-deferred-javascript-execution-explained/*
 * Why is it generally a good idea to position CSS `<link>`s between `<head></head>` and JS `<script>`s just before `</body>`? Do you know any exceptions?
 * What is progressive rendering?
 * Have you used different HTML templating languages before?
